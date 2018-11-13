@@ -1,0 +1,173 @@
+
+
+/*---------------------body start---------------------*/
+body {
+	background: #ffffff !important;
+	color: #333;
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 1.8em;
+	margin: 0px;
+}
+
+
+/*---------------Header css start---------------*/
+header {
+	width: 100%;
+	padding: 20px 0px;
+	float: left;
+	
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+
+.login {
+	float: right;
+	width: 10%;
+	padding-top: 12px;
+}
+.eco_copyight {
+	background: #222;
+	padding: 26px 0px;
+	float: left;
+	width: 100%;
+	text-align: center;
+	color: #fff;
+}
+
+ul {
+	list-style-type: none;
+}
+body {
+    font-family: "Poppins", sans-serif;
+    background: #fafafa !important;
+}
+	
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+::selection {
+    background-color: #1abc9c;
+    color: #ffffff;
+}
+
+::-moz-selection {
+    background-color: #1abc9c;
+    color: #ffffff;
+}
+
+a {
+    text-decoration: none !important;
+    color: #1abc9c;
+}
+
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+    outline: none;
+    color: #333333;
+}
+
+b {
+    font-weight: 600;
+    color: #333333;
+}
+
+p {
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+}
+
+button {
+    background-color: transparent;
+}
+
+*:focus {
+    outline: 0;
+}
+
+
+
+div.news {
+    
+    margin-bottom: 50px;
+}
+
+.news .news-image img {
+	width: 500px;
+    
+}
+
+.news .news-image p {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.news .news-image a {
+    font-weight: 600;
+}
+
+.news .post-title h1 {
+    color: #333333;
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: 700;
+    margin-top: 24px;
+}
+
+.news .post-title h2 {
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.news .post-info {
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 500;
+    padding: 10px 0;
+    color: #8c8c8c;
+}
+
+.news p {
+    font-size: 16px;
+    line-height: 30px;
+    color: #696868;
+    font-weight: 300;
+    letter-spacing: 0.8px;
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+
+/* Footer */
+
+.footer {
+    background: url(../images/bg/pattern-bg.png);
+    background-repeat: repeat;
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 10px;
+}
+
+.footer p {
+    color: #797878;
+    font-size: 13px;
+    line-height: 25px;
+    padding: 0px 15px;
+    letter-spacing: 1px;
+}
+
+.footer li a {
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.8px;
+}
+
