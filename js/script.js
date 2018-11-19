@@ -2,12 +2,12 @@
 
 class News {
 	
-	constructor(url) {
+	constructor(url,name) {
 		this.req = new Request(url);
-		
 	}
-	
+			
 	printNews(){
+		
 		let myList = document.querySelector('ul');
 		fetch(this.req).then(function(response) {
 			return response.json().then(function(json) {
@@ -22,11 +22,27 @@ class News {
 			});
 		});
 	}
+	show(){	
+	    let select = document.querySelector('.select.new');
+		let news = document.getElementById('article');
+		select.addEventListener('change', function() {
+			console.log(select.value );
+			if(select.value = '1'){
+				news.style.display ='block';
+			}
+		});
+	}
+
+	
 }
+
+
 let news = new News('https://newsapi.org/v2/top-headlines?' +
 			'sources=bbc-news&' +
 			'apiKey=a09253e9d8614d7f86d01ec6998b70de');
-news.printNews(); 
+news.show();
+news.printNews();
+
 
 
 
